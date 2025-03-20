@@ -8,3 +8,13 @@ void main() {
   Bloc.observer = const SimpleBlocObserver();
   runApp(const App());
 }
+
+
+
+/* One added bonus of using the bloc library is that we can have access to all Transitions in one place.
+
+The change from one state to another is called a Transition.
+
+Note
+
+A Transition consists of the current state, the event, and the next state.*/ */

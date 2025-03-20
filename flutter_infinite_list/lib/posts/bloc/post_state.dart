@@ -34,7 +34,6 @@ final class PostState extends Equatable {
   List<Object> get props => [status, posts, hasReachedMax];
 }
 
-
 // We implemented copyWith so that we can copy an instance of PostSuccess and update zero or more properties conveniently 
 
 

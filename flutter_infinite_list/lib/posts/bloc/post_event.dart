@@ -1,13 +1,11 @@
 part of 'post_bloc.dart';
 
 sealed class PostEvent extends Equatable {
-
   @override
   List<Object> get props => [];
 }
 
-final class PostFetched extends PostEvent{}
-
+final class PostFetched extends PostEvent {}
 
 
 //  sealed keyword means that the class can only be extended by classes in the same file. This is a useful feature to ensure that all possible states are handled in the same file.
